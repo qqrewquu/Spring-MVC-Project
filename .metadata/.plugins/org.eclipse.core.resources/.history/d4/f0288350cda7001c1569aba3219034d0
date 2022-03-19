@@ -1,0 +1,19 @@
+package com.appsdeveloperblog.app.ws.service.imple;
+
+import org.springframework.stereotype.Service;
+
+import com.appsdeveloperblog.app.ws.service.UserService;
+import com.appsdeveloperblog.app.ws.shared.dto.UserDto;
+
+
+@Service
+public class UserServiceImple implements UserService {
+
+	@Override
+	public UserDto createUser(UserDto user) {
+		// write the business logic of createUser(), and return user information
+		// back to client
+		return null;
+	}
+
+}
